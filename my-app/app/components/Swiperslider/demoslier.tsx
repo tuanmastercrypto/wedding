@@ -15,12 +15,12 @@ interface Slide {
  
 }
 
-interface ButtonProps {
-  id: number;
-  text: string;
-  link: string;
-  type: string;
-}
+// interface ButtonProps {
+//   id: number;
+//   text: string;
+//   link: string;
+//   type: string;
+// }
 
 interface DemoSliderProps {
   data: Slide[];
@@ -39,7 +39,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
           modules={[Autoplay, Pagination, EffectFade]}
           className="h-full"
         >
-          {data.map(({ id, image, tagline, title }) => (
+          {data.map(({ id, image,  }) => (
             <SwiperSlide key={id}>
               <div className="relative h-full w-full   rounded-md ">
                 {/* Background Image */}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Header from "./components/Headers/page";
 import Nav from "./components/Nav/page";
 import Videodemo from "./components/Videodm/page";
@@ -7,7 +7,7 @@ import Swiperss from "./components/Swiperslider/page";
 import His from "./components/History/page";
 import Gallery from "./components/Album/page";
 import Musicss from "./components/music/page";
-import { ShineBorderDemo } from "./components/Thankyou/page";
+import ThankyouPage from "./components/Thankyou/page";
 export default function Home() {
   return (
    
@@ -51,7 +51,7 @@ export default function Home() {
       <section className="w-full px-1 md:px-2 " id="all">
     
        
-      <ShineBorderDemo/>
+      <ThankyouPage/>
       
       </section>
     

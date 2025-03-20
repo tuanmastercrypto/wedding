@@ -4,10 +4,7 @@ import { TextAnimate } from "@/components/magicui/text-animate";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+
 } from "@/components/ui/card";
 import { ShineBorder } from "@/components/magicui/shine-border";
 export default function His() {
@@ -173,7 +170,7 @@ export default function His() {
                 </div>
 
              
-                <div className="w-full md:w-1/2 md:float-inline-end  px-4  md:max-w-[500px]">
+                <div className="w-full md:w-1/2 md:float-end  px-4  md:max-w-[500px]">
                   <p className="px-1 py-2 md:px-10 text-2xl text-center ">
 
                     <TextAnimate animation="slideUp" by="word" duration={5}>
