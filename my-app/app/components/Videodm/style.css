@@ -1,0 +1,12 @@
+.video-section {
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    padding: 150px 0;
+    position: inherit;
+    left: 0;
+    top: 0;
+    border-top: 3px solid #c89d9c;
+    border-bottom: 3px solid #c89d9c;
+  }
+  
